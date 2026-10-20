@@ -1,0 +1,113 @@
+﻿.snapped-layout
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: -ms-linear-gradient(bottom right, rgba(74,185,191,1) 0%, rgba(74,185,191,0.5) 50%, rgba(0,0,0,0) 100%), 
+        -ms-linear-gradient(top right, rgba(74,185,191,1) 0%, rgba(74,185,191,0.5) 50%, rgba(0,0,0,0) 100%);
+    background-color: #000;
+
+}
+
+.snapped-layout-internal
+{
+    -ms-grid-rows: 1fr auto 1fr;
+    -ms-grid-columns: 1fr;
+    display: -ms-grid;
+    height: 100%;
+}
+
+.snapped-layout *
+{
+    color: #fff !important;
+}
+
+.snapped-top
+{
+    -ms-grid-row: 1;
+    display: -ms-grid;
+    -ms-grid-rows: 0.618fr auto 1fr 25px 10px 45px;
+    -ms-grid-columns: 1fr;
+}
+
+.snapped-best
+{
+    -ms-grid-row: 4;
+    font-size: 25px;
+    line-height: 15pt;
+}
+
+
+.snapped-levelname
+{
+    -ms-grid-row: 6;
+    font-size: 45px;
+    line-height: 15pt;
+}
+
+.snapped-logo
+{
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    display: -ms-grid;
+    -ms-grid-rows: 1fr;
+    -ms-grid-columns: 1fr auto 1fr;
+    height: 146px;
+    width: 100%;
+    
+}
+
+
+
+.snapped-logo img
+{
+    width: 300px;
+    -ms-grid-column: 2;
+    -ms-grid-row: 1;
+}
+
+
+
+.snapped-logo h1
+{
+    color: #fff;
+}
+
+
+.snapped-bot
+{
+   -ms-grid-row: 3;
+   display:-ms-grid;
+   -ms-grid-rows: 0px 80px 60px 1fr 200px;
+}
+
+.snapped-time
+{
+    -ms-grid-row: 2;
+    font-size: 60px;
+}
+
+.snapped-fact
+{
+    -ms-grid-row: 5;
+}
+
+.snapped-fact h2
+{
+     padding-bottom: 5px;
+     margin: 0;
+}
+
+
+.snapped-layout #mainGame
+{
+    -ms-grid-row: 2;
+    border: 1px #fff solid;
+}
+
+.snapped-thankyou
+{
+    display: none;
+    -ms-grid-row: 2;
+    font-size: 40pt;
+    text-align: center;
+}

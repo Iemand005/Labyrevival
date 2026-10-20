@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <script type="ms-deferred/javascript" src="../pages-js/totalwin.js"></script>
+        <link rel="stylesheet" href="../pages-css/totalwin.css" />
+    </head>
+    <body>
+            <div class="page-root totalwin-layout" data-fragmentadded="totalWinPage.fragmentAdded" data-fragmentremoved="totalWinPage.fragmentRemoved">
+                <!-- <div class="totalwin-vid-layout">
+                    <div class="vidcont">
+                        <video src="/video/credits1.wmv" id="winvid"></video>
+                    </div>
+                </div> -->
+                <div data-win-control="WinJS.Binding.Template" id="totalwinScoretemp"  style="display:none">
+                  
+                            <div class="totalwin-score-container">
+                                <img class="totalwin-levelimg" data-win-bind="src: levelimg" />
+                                <div class="totalwin-info">
+                                    <div class="totalwin-levelname" data-win-bind="innerHTML: levelname"></div>
+                                    <div class="totalwin-yourtime" data-win-bind="innerHTML: leveltime">0:00</div>
+                                    <div class="totalwin-stars"><img data-win-bind="src: levelstarimg" /></div>
+                                    
+                                </div>
+                            </div>
+                </div>
+
+                <div class="totalwin-text-layout" id="totalwinTextScroll">
+                    <div class="totalwin-textcont" id="totalwinText">
+                        <div class="totalwin-screen">
+                            <div class="totalwin-screen-content"><h1>All That is Good Must Come to an End</h1></div>
+                        </div>
+                        <div id="totalwinScores">
+
+                        </div>
+                        <h1 class="creditstart">Labyrinth</h1>
+
+                        <h2 class="creditlead">Project Manager</h2>
+                        <p class="credit">Matthew Bailie (Brigham Young University)</p>    
+
+                        <h2 class="creditlead">Developer</h2>
+                        <p class="credit">Noam Samuel (University of Michigan)</p>
+                        
+                        <h2 class="creditlead">Tester</h2>
+                        <p class="credit">Digvijay Shaktawat (University of Florida)</p>    
+
+                        <h2 class="creditlead spacebefore">Special thanks</h2>
+                        <p class="credit">Jenn Allen</p>
+                        <p class="credit">Miko Charbonneau</p>
+                        <p class="credit">Rahul Fadnavis</p>
+                        <p class="credit">Gavin Gear</p>
+                        <p class="credit">John Lam</p>
+                        <p class="credit">Ashwin Needamangala</p>
+                        <p class="credit">Katharine O'Doherty</p>
+                        <p class="credit">Drew Peterson</p>
+                        <p class="credit">Ethan Ray</p>
+                        <p class="credit">Shyam Shadwami</p>
+                        <p class="credit">Chris Tavares</p>
+                        <p class="credit">Matthew Wozniak</p>
+                        <p class="credit">Younjun Wu</p>
+
+                        <div class="totalwin-screen">
+                            <div class="totalwin-screen-content"><h1>Well, That's It</h1><h3>(Pssst... Swipe up to choose a level)</h3></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>

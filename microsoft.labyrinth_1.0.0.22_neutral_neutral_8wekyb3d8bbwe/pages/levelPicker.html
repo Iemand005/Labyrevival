@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <script type="ms-deferred/javascript" src="../pages-js/levelPicker.js"></script>
+        <link rel="stylesheet" href="../pages-css/levelPicker.css" />
+    </head>
+    <body>
+         <div class="page-root levelpicker-layout" id="LPPage" data-fragmentAdded="pickerPage.fragmentAdded" data-fragmentRemoved="pickerPage.fragmentRemoved">
+             <div id="headerTemplate" class="levelpicker-group-header" data-win-control="WinJS.Binding.Template">
+                <h1 class="win-contentTitle" data-win-bind="textContent: title"></h1>
+            </div>
+            <div id="levelTemplate" data-win-control="WinJS.Binding.Template" style="display:none">
+                    <div data-win-bind="style.backgroundImage: displayImage" class="levelpicker-image" >
+                        </div>
+                        <div data-win-bind="className: overlayClass"></div>
+                        <div data-win-bind="innerHTML: playText" class="levelpicker-text"></div>
+                        <div data-win-bind="style.backgroundImage: starImage" class="levelpicker-stars"></div>
+                        <div data-win-bind="innerHTML: playTime" class="levelpicker-time"></div>
+            </div>
+
+
+             <section class="win-dialog">
+                <header class="win-dialog-header">
+                    <div class="win-navigation-backButton win-disabled" id="LPbackBtn"></div>
+                    <div class="win-dialog-header-titleArea">
+                        <h1>Levels</h1>
+                    </div>
+                </header>
+                <section class="win-dialog-content levelpicker-center">
+                    <div class="levelList-cont">
+                        <div id="levelList" 
+                             data-win-control="WinJS.UI.ListView"
+                             data-win-options="{itemRenderer: levelTemplate, groupRenderer: headerTemplate, selectionMode: 'none', layout: {type: WinJS.UI.GridLayout , groupHeaderPosition: 'top'} }"></div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+
+            
+    </body>
+</html>

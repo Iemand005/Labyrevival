@@ -1,0 +1,271 @@
+﻿
+
+/*copied from template*/
+html {
+    cursor: default;
+}
+
+h1 {
+    font: 42pt/48pt "Segoe UI Light"; 
+}
+
+body
+{
+    line-height: normal !important;
+}
+
+/*
+ * Dark theme styling
+ */ 
+
+html {
+    background-color: #000000;
+}
+*,
+h1,
+h3,
+h5,
+.win-faded {       /* UNDONE: what to call this style? */
+    color: #d6d6d6;
+}
+h2,
+h4,
+h6 {
+    color: #7b7b7b;
+}
+.win-highlight, mark {
+    background: transparent;
+    color: #0099ba;                /* UNDONE: what is the correct highlight color? */
+}
+
+.win-navigation-backButton {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G/yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUAoOnaV/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCBKrBBG/TBGCzABhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q/pH5Z/YkGWcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+BZ7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nvnl+F30N/I/9k/3r/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3SPVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADqYAAAOpgAABdvkl/FRgAAApJJREFUeNrUmc9qE1EUxicEbINioYu6slbUQEFc6UIX6qKWBAtuupGK+z5AIV24zKI+QNYScSnFTRftE5QgoqXFgiLiSm2q0EKJlfzcfFeOw0ycmU6SmQOHkMk93/mSe/7dGw/wYuooMAXMAw2gBbSBI5+29VlDa6dkG8tfnMUloAo8Aw6ILweyrQorVYKzwEugG+B4F1gDmsALaVPPdgPWd4U1mwbBEvAU2Pc5eQvUgLtAGRgDCkBRWtCzstbUZGNlX9ilpAQvAus+0B3gETCRIHYnZLvjw1yXr1gELwObBuQnUE8S5CFJVhemk035jERwUtnn5D1QSYGYXyvCdtKS754EzwAbxmgbmO4DOafT8uFkQxxCCa6YxVt9JmdJbhm/K2EEZ4BDE3OVAZCz2+1i8lBc/iF4Clg136I+QHJO68b/qjj9JVgFOqaUjMQEPwtcAM5LrwDnYmKMmBLUESfPpX3TsF+ICXxNXeONMvG1Xm8l+BUXDI8mMOrKiuut74DxGIBXQ9rZUsKaOS4OrndPepo0nCyfkNwvYPGEsbhs8OY9jUMAv9U3o4A8AL77yLWBeykkyx3gWJgNz3SNbeBSBIA54JuP3EfgZkrZXDY70/KAPb15BZz+j/F94GvAnPdEBfdGRL3u7xhGx5R0AHueKS/PNSaFkVsM+OXQ9PwB+Ax8iaifRDTIT8FUlY4nB2jQLIYY1RSjacrtEF9FcQE4ikOwOyyCHVMYe23xkunVA91ilyRrCtBeSfJwGEnSMoefchbLjCvUxyqSUQt1O6BQz/SjUCdtdXOKPSs/gMdpt7rMDwuZH7cyP7DmYuTP/KEpF8fOXBzcM3/1kYvLo1xcv+XiAjMXV8C5uUQf2t8QfwYAWWmC4DvTFQgAAAAASUVORK5CYII=);
+}
+
+
+
+.page-root
+{
+    position: relative;
+}
+
+
+/* App Bar */ 
+
+
+#appBar
+{
+    
+    width: 100%;
+    padding: 0;
+    background-color: #265F63;
+    display: -ms-grid;
+    width: 100%;
+    height: 88px;
+    -ms-grid-columns: 100px 100px 1fr 100px 1fr 100px 100px 66px;
+    -ms-grid-rows: 1fr;
+}
+
+
+.win-appbar-command {
+    display: -ms-grid;
+    -ms-grid-columns: 30px 40px 30px;
+    -ms-grid-rows: 14px 40px 5px 14px 13px;
+}
+.win-appbar-icon {
+    width: 40px;
+    height: 40px;
+    -ms-grid-column: 2;
+    -ms-grid-row: 2;
+}
+.win-appbar-label {
+    width: 88px;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    -ms-grid-column-align: center;
+    color: #eee;
+}
+.win-appbar-label {
+    font: 9pt "Segoe UI";
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.win-appbar-slot1 { -ms-grid-column: 1; -ms-grid-row: 1; } 
+.win-appbar-slot2 { -ms-grid-column: 2; -ms-grid-row: 1; } 
+.win-appbar-slot3 { -ms-grid-column: 4; -ms-grid-row: 1; } 
+.win-appbar-slot4 { -ms-grid-column: 6; -ms-grid-row: 1; } 
+.win-appbar-slot5 { -ms-grid-column: 7; -ms-grid-row: 1; } 
+
+
+
+.win-appbar-content
+{
+    font: 10pt "Segoe UI";
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.win-appbar-icon
+{
+    background-image: url("images/storelogo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.win-navigation-backButton {
+    background-size: 100% 100%;
+    width: 40px;
+    height: 40px;
+}
+
+
+/*Buttons*/
+
+.restartBtn .win-appbar-icon
+{
+    background-image: url("/images/RetryImage.png");
+}
+
+.restartBtn:hover .win-appbar-icon
+{
+    background-image: url("/images/RetryOnFocusImage.png");
+}
+
+.restartBtn:active .win-appbar-icon
+{
+    background-image: url("/images/RetrySelectedImage.png");
+
+}
+
+.LPBtn .win-appbar-icon
+{
+    background-image: url("/images/LevelPickerImage.png");
+}
+
+.LPBtn:hover .win-appbar-icon
+{
+    background-image: url("/images/LevelPickerOnFocus.png");
+}
+
+.LPBtn:active .win-appbar-icon
+{
+    background-image: url("/images/LevelPickerSelected.png");
+}
+
+.nextBtn .win-appbar-icon
+{
+    background-image: url("/images/NextImage.png");
+}
+
+
+.nextBtn:hover .win-appbar-icon
+{
+    background-image: url("/images/NextOnFocus.png");
+}
+
+
+.nextBtn:active .win-appbar-icon
+{
+    background-image: url("/images/NextSelected.png");
+}
+
+
+/* Settings */
+
+
+.flyout-settings
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: auto;
+    width: 300px;
+    height: 100%;
+}
+
+.extended-splash
+{
+    background-color: #34A1AB;
+    display: -ms-grid;
+    -ms-grid-rows: 1fr auto 1fr;
+    -ms-grid-columns: 1fr auto 1fr;
+    height: 100%;
+}
+
+.extended-splash img
+{
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+}
+
+#settingsPane
+{
+     padding: 10px;
+}
+
+
+
+/* Dialog Styling */
+.win-dialog {
+    display: -ms-grid;
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 100px 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+.win-dialog-header {
+    display: -ms-grid;
+    -ms-grid-columns: 120px 1fr;
+    -ms-grid-rows: 1fr;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+.win-dialog-header-titleArea {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    display: -ms-grid;
+    -ms-grid-columns: auto 16px auto;
+    margin-left: -4px;
+}
+.win-dialog-header-titleArea h1 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    margin-top: 44px;
+}
+.win-dialog-header-titleArea h2 {
+    -ms-grid-column: 3;
+    -ms-grid-row: 1;
+    margin-top: 72px;
+}
+.win-dialog-header .win-navigation-backButton {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-column-align: center;
+    -ms-grid-row-align: end;
+}
+
+.win-dialog-content {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+}
+
+body
+{
+    background-color: #000 !important;
+}
+
+#supersecretsettings
+{
+    display: none;
+}
+
+#supersecretsettings input
+{
+    color: black !important;
+}

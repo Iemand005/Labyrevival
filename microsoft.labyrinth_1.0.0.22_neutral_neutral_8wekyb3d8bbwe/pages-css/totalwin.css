@@ -1,0 +1,171 @@
+﻿.totalwin-vid-layout
+{
+    display: -ms-grid;
+    -ms-grid-rows: 1fr auto 1fr;
+    -ms-grid-columns: 1fr;
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    height: 100%;
+    
+}
+
+.vidcont
+{
+    -ms-grid-column: 1;
+    -ms-grid-row: 2;
+    height: auto;
+}
+
+#winvid
+{
+    width: 100%;
+}
+
+.totalwin-layout
+{
+    background-image: -ms-linear-gradient(bottom right, rgba(74,185,191,1) 0%, rgba(74,185,191,0.5) 50%, rgba(0,0,0,0) 100%), 
+        -ms-linear-gradient(bottom left, rgba(74,185,191,1) 0%, rgba(74,185,191,0.5) 50%, rgba(0,0,0,0) 100%);
+    background-color: #000;
+
+}
+
+
+.totalwin-layout *
+{
+    color: #fff;
+}
+
+
+.totalwin-text-layout
+{
+    height: 100%;
+    overflow: hidden;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 1038px 1fr;
+    -ms-grid-rows: 1fr;
+}
+
+.totalwin-textcont
+{
+    -ms-grid-column: 2;
+    opacity: 0;
+    -ms-transition-property: opacity;
+    -ms-transition-duration: 3s;
+}
+
+.totalwin-screen
+{
+    height: 100%;
+    display: -ms-grid;
+    -ms-grid-rows: 1fr auto 1fr;
+    -ms-grid-columns: 1fr auto 1fr;
+}
+
+.totalwin-screen-content
+{
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    text-align: center;
+}
+
+.creditlead
+{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 20pt;
+}
+
+.credit
+{
+    text-align: right;
+    font-size: 16pt;
+}
+
+.spacebefore
+{
+    margin-top: 100px;
+}
+
+
+.totalwin-info
+{
+    -ms-grid-column: 3;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 80px 16px 60px 16px 45px 10px 25px;
+}
+
+.totalwin-levelimg
+{
+    -ms-grid-column: 1;
+    height: 250px;
+    border: 1px #fff solid;
+}
+
+.totalwin-score-container
+{
+    -ms-grid-columns: 450px 140px 448px;
+    display: -ms-grid;
+    -ms-grid-rows: 1fr;
+    margin-bottom: 40px;
+}
+
+.totalwin-stars
+{
+    -ms-grid-row: 3;
+    line-height: 60px;
+}
+
+.totalwin-stars img
+{
+    height: 100%;
+}
+
+
+.totalwin-levelname
+{
+
+    font:  80px "Segoe UI Light";
+    -ms-grid-row: 1;
+    color: #fff;
+    line-height: 80px;
+   
+}
+
+.winscreen-best
+{
+    font:  25px "Segoe UI Light";
+    -ms-grid-row: 7;
+    color: #fff;
+    line-height: 25px;
+   
+}
+
+.totalwin-yourtime
+{
+    font:  45px "Segoe UI Light";
+    -ms-grid-row: 5;
+    color: #fff;
+    line-height: 45px;
+   
+}
+
+.creditstart {
+    margin-top: 300px;
+    text-align: center;
+    font-size: 45pt;
+}
+
+.creditlead
+{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+p.credit
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}

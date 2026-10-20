@@ -1,0 +1,15 @@
+﻿[
+{ "name": "Start Up", "displayImage": "/images/level1Desat.png", "displayImageColor": "/images/level1Sat.png", "fileName": "level1.json", "music" : "/audio/play.mp3", "group" : 0, "times" : [24,18,12,7]},
+{ "name": "A Bit More", "displayImage": "/images/level2Desat.png", "displayImageColor": "/images/level2Sat.png", "fileName": "level2.json", "music" : "/audio/play.mp3", "group" : 0, "times" : [30,20,12,8]},
+{ "name": "Runaround", "displayImage": "/images/level6Desat.png", "displayImageColor": "/images/level6Sat.png", "fileName": "level6.json", "music" : "/audio/play.mp3", "group" : 0,"times" : [180,120,80,40]},
+
+
+{ "name": "Backwards", "displayImage": "/images/reverseDesat.png", "displayImageColor": "/images/reverseSat.png", "fileName": "reverse.json", "music" : "/audio/play2.mp3", "group" : 1, "times" : [120,100,42,25]},
+{ "name": "Bounce", "displayImage": "/images/RubberWallsDesat.png", "displayImageColor": "/images/RubberWallsSat.png", "fileName": "rubber.json", "music" : "/audio/play2.mp3", "group" : 1, "times" : [130,110,47,29]},
+{ "name": "Melon", "displayImage": "/images/melonDesat.png", "displayImageColor": "/images/melonSat.png", "fileName": "melon.json", "music" : "/audio/play2.mp3", "group" : 1, "times" : [90, 70, 50, 35]},
+
+{ "name": "Seaweed", "displayImage": "/images/seaweedDesat.png", "displayImageColor": "/images/seaweedSat.png","fileName": "seaweed.json", "music" : "/audio/play3.mp3", "group" : 2,  "times" : [180, 120, 80, 40]},
+{ "name": "Slip/Slide", "displayImage": "/images/iceDesat.png", "displayImageColor": "/images/iceSat.png", "fileName": "ice.json", "music" : "/audio/play3.mp3", "group" : 2, "times" : [180,120,80,42]},
+{ "name": "Over/Back", "displayImage": "/images/level7Desat.png", "displayImageColor": "/images/level7Sat.png", "fileName": "level7.json", "music" : "/audio/play3.mp3", "group" : 2, "times" : [180,140,100,50]},
+{ "name": "All Together", "displayImage": "/images/Level8Desat.png", "displayImageColor": "/images/Level8Sat.png", "fileName": "level8.json", "music" : "/audio/play3.mp3", "group" : 2, "times" : [210,180,150,120]}
+]

@@ -1,0 +1,149 @@
+﻿/* Item Styling */
+
+.levelpicker-layout
+{
+   background-image: -ms-linear-gradient(bottom right, rgba(74,185,191,1) 0%, rgba(74,185,191,0.5) 50%, rgba(0,0,0,0) 100%), 
+        -ms-linear-gradient(bottom left, rgba(74,185,191,1) 0%, rgba(74,185,191,0.5) 50%, rgba(0,0,0,0) 100%);
+    background-color: #000;
+
+}
+
+.levelpicker-layout *
+{
+      color: #fff;
+}
+
+.win-item
+{
+    display: -ms-grid;
+     -ms-grid-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 10px 20px 10px 20px 10px;
+    height: 100%;
+}
+
+.win-item.currentLevel .levelpicker-overlay
+{
+    background-color: rgba(149, 214, 219, 0.8) !important;
+}
+
+.win-item .levelpicker-image
+{
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 6;
+    -ms-grid-column-span: 2;
+    background-size: cover;
+}
+
+.win-item .levelpicker-overlay
+{
+    -ms-grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 5;
+    -ms-grid-column-span: 2;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.win-item .levelpicker-lockoverlay
+{
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 6;
+    -ms-grid-column-span: 2;
+    background-image: url("/images/Locked.png");
+    background-size: 50px 50px;
+    background-position: 197px 100px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.win-item .levelpicker-text
+{
+    -ms-grid-column: 1;
+    -ms-grid-row: 3;
+    font: 20px "Segoe UI";
+    color: #000 !important;    
+    padding-left: 15px;
+    text-align: right;
+}
+
+.win-item .levelpicker-stars
+{
+    -ms-grid-column: 1;
+    -ms-grid-row: 5;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: right;
+    color: #000;
+    padding-right: 15px;
+    font-size: 20px;
+    line-height: 15pt;
+}
+
+.win-item .levelpicker-time
+{
+    -ms-grid-column: 2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 4;
+    font: 50px "Segoe UI";
+    color: #000 !important;
+    padding-left: 10px;
+}
+
+
+.win-item
+{
+    height: 250px;
+    width: 444px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+
+
+#levelList .win-scrollable
+{
+    left: 110px;
+    position: relative;
+}
+
+
+.levelpicker-center
+{
+    display: -ms-grid;
+    -ms-grid-rows: 1fr auto 1fr;
+    -ms-grid-columns: 1fr;
+    height: 100%;
+}
+
+.levelList-cont
+{
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    width: 100%;
+}
+
+#levelList
+{
+    height: 628px;
+    
+    
+}
+
+.win-groupHeader {
+    margin: 0;
+    padding: 0;
+    margin-left: 73px;
+}
+
+.win-groupHeader h1 {
+    font-size: 20pt;
+    line-height: 24pt;
+    margin: 0;
+    padding: 0;
+    height: 36pt;
+}

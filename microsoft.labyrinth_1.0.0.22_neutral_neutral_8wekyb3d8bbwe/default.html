@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>RollingBallDemo</title>
+  
+  <!-- Happy, JSCop? -->
+    <meta name="description" content="A game" />
+    <meta name="keywords" content="game internapp" />
+
+    <!-- WinJS references -->
+    <link rel="stylesheet" href="/winjs/css/ui-dark.css" />
+    <script src="/winjs/js/base.js"></script>
+    <script src="/winjs/js/ui.js"></script>
+    <script src="/winjs/js/binding.js"></script>
+    <script src="/winjs/js/controls.js"></script>
+    <script src="/winjs/js/animations.js"></script>
+    <script src="/winjs/js/uicollections.js"></script>
+    <script src="/winjs/js/wwaapp.js"></script>
+
+    <!--Labyrinth references-->
+    <link href="style.css" rel="stylesheet" />
+    <script src="js/vector.js"></script>
+    <script src="js/geometry.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/model.js"></script>
+    <script src="js/renderer_canvas.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/level.js"></script>
+    <script src="js/ball.js"></script>
+    <script src="js/gamestatemanager.js"></script>
+    <script src="js/globaldata.js"></script>
+
+    <!-- initialization / page-specific logic -->
+    <script src="pages-js/default.js"></script>
+
+    <!-- Test Hooks -->
+    <script src="test/js/test_pause.js"></script>
+    <script src="test/js/test_collision.js"></script>
+    <script src="test/js/test_hole.js"></script>
+    <script src="test/js/test_win.js"></script>
+    <script src="test/js/test_frame.js"></script>
+    <script src="test/js/test_link.js"></script>
+    <script src="test/js/test_levelpicker.js"></script>
+    <script src="test/js/testhook.js"></script>
+    
+</head>
+<body>
+        
+        <div id="pageContainer" style="height: 100%;">
+           <div class="extended-splash">
+               <img src="/images/splashscreen.png" />
+           </div>
+        </div>
+
+        <canvas id="satLevelImage"  style="display:none;"></canvas>
+        <canvas id="compositeLevelImage"  style="display:none;"></canvas>
+        <canvas id="compositeCache"  style="display:none;"></canvas>
+
+            <img src="../images/ShadowBall.png" style="display:none;" id="ballimage" />
+            
+            <img src="../images/GlowForWinning.png" style="display:none;" id="winglowimage" />
+            
+            <img src="../images/GlowBall.png" style="display:none;" id="glowball" />
+
+            <img src="../images/brush.png" style="display:none;" id="brush" />
+        
+       
+        <div id="appBar" data-win-control="WinJS.UI.AppBar" class="commandlist" data-win-options="{lightDismiss: true, position: 'bottom', transient: true}">
+                <div id="ABrestartBtn" class="win-appbar-command win-appbar-slot4 restartBtn">  
+                    <div class="win-appbar-icon"></div>
+                    <div class="win-appbar-label">Restart</div>
+                </div>
+                <div id="ABlevelPickerBtn" class="win-appbar-command win-appbar-slot5 LPBtn">  
+                    <div class="win-appbar-icon"></div>
+                    <div class="win-appbar-label">Levels</div>
+                </div>
+        </div>
+
+    <!-- Removed for PDC
+        <div id="settingsPane" data-win-control="WinJS.UI.SettingsPane" data-win-options="{label: 'Preferences', width:'wide', lightDismiss: true}" class="flyout-settings" style="visibility: hidden;" aria-label="Preferences">
+            
+            <div class="win-title">
+                Preferences
+             </div>
+             <div class="win-contentCaption">
+                <input type="checkbox" id="lowResRendering" /> Low-Quality Mode.<br />
+                Music Volume: <input type="range" min="0" max="10" step="1" value="10" id="musicVolume" /> <br />
+                SFX Volume: <input type="range" min="0" max="10" step="1" value="10" id="sfxVolume" />
+
+                 <div id="supersecretsettings">
+                     <h2>Super-Secret Hidden Settings</h2>
+                     Collision Momentum Loss: <input id="collmomloss" /><br />
+                     Accelerometer Acceleration: <input id="accel" /><br />
+                     Rubber velocity gain: <input id="rvelgain" /> <br />
+                     Friction: <input id="friction" /> <br />
+                 </div>
+             </div>
+
+        </div>
+    -->
+</body>
+</html>
